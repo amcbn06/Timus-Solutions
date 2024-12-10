@@ -4,7 +4,7 @@ Strategy:
 Just use the reconstruction technique from https://cp-algorithms.com/graph/pruefer_code.html
 
 Performance:
-We use a set to store all the current leaves, therefore it will
+We use a min-heap (or priority_queue) to store all the current leaves, therefore it will
 run in O(nlogn), and all the other operations are done in linear time
 
 * Time complexity: O(nlogn)
