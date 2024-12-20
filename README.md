@@ -11,3 +11,5 @@ Because I've been faced too many times with the "Runtime error (access violation
 - precission errors
 - the sorting might fail if the comparator is not safe (again, prevalently happening in geometry problems)
 - the reading might fail with doubles (this may or may not cause errors, I'll leave this here because I'm paranoid)
+
+- **you might get Runtime error because you're using G++, try Clang++ instead**
